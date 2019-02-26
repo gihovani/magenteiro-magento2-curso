@@ -1,6 +1,6 @@
 <?php
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Gg2_PrimeiroModulo',
+    'Magenteiro_PrimeiroModulo',
     __DIR__
 );

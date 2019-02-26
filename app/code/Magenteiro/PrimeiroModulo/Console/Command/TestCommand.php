@@ -1,15 +1,16 @@
 <?php
 
-namespace Gg2\PrimeiroModulo\Console\Command;
+namespace Magenteiro\PrimeiroModulo\Console\Command;
 
+use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class TestCommand extends \Symfony\Component\Console\Command\Command
+class TestCommand extends Command
 {
     protected function configure()
     {
-        $this->setName('gg2:teste')
+        $this->setName('magenteiro:teste')
              ->setDescription('Nosso primeiro comando');
         parent::configure();
     }
@@ -17,5 +18,11 @@ class TestCommand extends \Symfony\Component\Console\Command\Command
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $output->writeln('Olá Magenteiro');
+        $output->writeln($this->formatText('>', '<'));
+    }
+
+    public function formatText($prefix, $suffix)
+    {
+        return "$prefix ALGUM TEXTO $suffix";
     }
 }
