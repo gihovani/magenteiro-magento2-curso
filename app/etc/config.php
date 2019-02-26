@@ -6,6 +6,7 @@ return [
         'Magento_Directory' => 1,
         'Magento_Theme' => 1,
         'Magento_Backend' => 1,
+        'Gg2_PrimeiroModulo' => 1,
         'Magento_Variable' => 1,
         'Magento_Eav' => 1,
         'Magento_AdminNotification' => 1,
