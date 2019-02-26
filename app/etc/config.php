@@ -1,6 +1,7 @@
 <?php
 return [
     'modules' => [
+        'ADM_QuickDevBar' => 1,
         'Magento_Store' => 1,
         'Magento_Directory' => 1,
         'Magento_Theme' => 1,
@@ -8,6 +9,8 @@ return [
         'Magento_Variable' => 1,
         'Magento_Eav' => 1,
         'Magento_AdminNotification' => 1,
+        'MSP_Common' => 1,
+        'MSP_DevTools' => 1,
         'MSP_ReCaptcha' => 1,
         'Magento_Config' => 1,
         'Magento_Indexer' => 1,
