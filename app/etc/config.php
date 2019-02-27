@@ -15,6 +15,7 @@ return [
         'Magento_Config' => 1,
         'Magenteiro_PrimeiroModulo' => 1,
         'Magenteiro_MinhaPreferencia' => 1,
+        'Magenteiro_PrimeiroObserver' => 1,
         'Magenteiro_PrimeiroPlugin' => 1,
         'Magento_Indexer' => 1,
         'Magento_AdvancedPricingImportExport' => 1,
