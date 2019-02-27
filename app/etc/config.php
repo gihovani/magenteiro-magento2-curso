@@ -14,6 +14,7 @@ return [
         'MSP_ReCaptcha' => 1,
         'Magento_Config' => 1,
         'Magenteiro_PrimeiroModulo' => 1,
+        'Magenteiro_MinhaPreferencia' => 1,
         'Magenteiro_PrimeiroPlugin' => 1,
         'Magento_Indexer' => 1,
         'Magento_AdvancedPricingImportExport' => 1,
