@@ -13,6 +13,7 @@ return [
         'MSP_DevTools' => 1,
         'MSP_ReCaptcha' => 1,
         'Magento_Config' => 1,
+        'Magenteiro_InventoryIntegration' => 1,
         'Magenteiro_PrimeiroModulo' => 1,
         'Magenteiro_PrimeiroJavaScript' => 1,
         'Magenteiro_MinhaPreferencia' => 1,
