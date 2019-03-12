@@ -1,23 +1,20 @@
 <?php
-
 namespace Magenteiro\PrimeiroController\Controller\Meucontroller;
 
-use Magento\Framework\App\Action\Action;
-use Magento\Framework\App\ResponseInterface;
-
-class Surpresa extends Action
+class Surpresa extends \Magento\Framework\App\Action\Action
 {
+    protected $_pageFactory;
 
-    /**
-     * Execute action based on request and return result
-     *
-     * Note: Request will be added as operation argument in future
-     *
-     * @return \Magento\Framework\Controller\ResultInterface|ResponseInterface
-     * @throws \Magento\Framework\Exception\NotFoundException
-     */
+    public function __construct(
+        \Magento\Framework\App\Action\Context $context,
+        \Magento\Framework\View\Result\PageFactory $pageFactory)
+    {
+        $this->_pageFactory = $pageFactory;
+        return parent::__construct($context);
+    }
+
     public function execute()
     {
-        echo 'surpresa gg2!';
+        return $this->_pageFactory->create();
     }
 }
